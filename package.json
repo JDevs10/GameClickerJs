@@ -1,0 +1,38 @@
+{
+  "name": "gameclickerjs",
+  "version": "0.1.0",
+  "description": "Simple clicking game to learn the core game mechanics",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDevs10/GameClickerJs.git"
+  },
+  "keywords": [
+    "clicker",
+    "game"
+  ],
+  "author": "JDevs10",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/webpack-dev-server": "^4.7.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "wepack-cli": "^0.0.1-security"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
